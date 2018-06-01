@@ -1,0 +1,99 @@
+/* Name:
+*  Date: 
+*  Lab: C13 Fixed Layout Exercise */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #b5e7a0;
+    margin: 15px auto;
+	color: black;
+}
+
+h3 {
+   color: #6b5b95;
+   font-family: Verdana;
+}
+
+header {
+    border-bottom: 2px solid #86af49;
+    text-align: center;
+    font-size: 18pt;
+    font-weight:bold;
+    font-family: Verdana;
+}
+
+main {
+    margin: 10px;
+    font-family: Verdana;
+} 
+
+#img1 {
+/*logo image*/
+	float: left;
+	border-width: 2px;
+	border-color: blue;
+	border-style: dotted;
+	width: 100px;
+	height: 100px;
+	margin: 5px 5px 5px 0px;
+}
+
+#img2 {
+/*donating image*/
+	border-width: 2px;
+	border-color: black;
+	border-style: dashed;
+	width: 200px;
+	height: 125px;
+	margin: 3px;
+}
+
+#img3 {
+/*protest image*/
+	border-width: 2px;
+	border-color: pink;
+	border-style: solid;
+	width: 300px;
+	height: 125px;
+	margin: 3px;
+}
+
+#img4 {
+/*volunteering image*/
+	border-width: 2px;
+	border-color: gray;
+	border-style: dotted;
+	width: 175px;
+	height: 125px; 
+	margin: 3px;
+}
+	
+#img5 {
+/*homeless man image*/
+	border-width: 2px;
+	border-color: purple;
+	border-style: dashed; 
+	width: 175px;
+	height: 125px;
+	margin: 3px;
+} 
+
+#img6 {
+/*map image*/
+	border-width: 2px;
+	border-color: purple;
+	border-style: dashed; 
+	width: 200px;
+	height: 125px;
+	float: right;
+	margin: 15px;
+} 
+	
+footer {
+    border-top: 2px solid black;
+    font-family: Verdana;
+}
